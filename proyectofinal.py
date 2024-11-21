@@ -1,18 +1,25 @@
 
 import streamlit as st
 from streamlit_image_comparison import image_comparison
-st.set_page_config("TIPO DE ESTRUCTURAS EN LAS PROTEÍNAS")
-st.header(" TIPO DE ESTRUCTURAS EN LAS PROTEÍNAS")
-
-st.write("")
-"TIPOS DE ESTRUCTURAS Y SUS DIFERENCIAS"
-st.write("")
-
-st.markdown("### ESTRUCTURA TIPO 1")
+st.set_page_config(
+    page_title="DASHBOARD PROTEINAS",
+    page_icon="🧬",
+    layout="centered")
+    st.title("ESTRUCTURAS DE PROTEINAS")
+st.markdown("### ESTRUCTURA TIPO I")
+st.write("Colágeno estructura tipo I")
 image_comparison(
   img1="Col_T1.jpg",
   img2="colágeno_TIPO1.jpg",
-   label1="Estructura  ",
-    label2="Estructura molecular",
+   label1="Estructura molecular",
+    label2="Estructura",
+)
+st.markdown("### ESTRUCTURA TIPO III")
+st.write("Colágeno estructura tipo III")
+image_comparison(
+  img1="estructuracolag3.jpg",
+  img2="Colag.Tipo3.jpg",
+   label1="Estructura molecular  ",
+    label2="Estructura",
 )
 #streamlit run proyectofinal.py
