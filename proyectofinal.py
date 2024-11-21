@@ -10,8 +10,10 @@ st.fire()
 st.sidebar.title("ÍNDICE DE ESTRUCTURAS")
 st.sidebar.caption("descripcion breve ajaa")
 
-with st.sidebar.expander("Estructuras tipo 1")
+with st.sidebar.expander("Estructuras tipo 1"):
     st.caption("balbask")
+
+
 st.markdown("### ESTRUCTURA TIPO I")
 st.write("Colágeno estructura tipo I")
 image_comparison(
