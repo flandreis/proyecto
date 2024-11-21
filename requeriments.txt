@@ -1,2 +1,2 @@
 streamlit
-streamlit_image_comparison
+streamlit-image-comparison
