@@ -8,8 +8,6 @@ st.set_page_config(
 menu["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
 
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS",menu)
-
-
 st.sidebar.caption("descripcion breve ajaa")
 
 if opcion == "Proteínas":
