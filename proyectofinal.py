@@ -8,7 +8,7 @@ st.set_page_config(
 menu["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS",menu)
 st.sidebar.caption("descripcion breve ajaa")
-    if opcion == "Proteínas":
+if opcion == "Proteínas":
         st.title("Descripción")
         st.write("blablablaba")
     st.markdown("### ESTRUCTURA TIPO I")
@@ -19,11 +19,11 @@ image_comparison(
        label1="Estructura molecular",
         label2="Estructura",)
 
-    elif opcion == "TIPO I":
+ elif opcion == "TIPO I":
         st.write("Has seleccionado Tipo I")
-    elif opcion == TIPO II:
+ elif opcion == TIPO II:
         st.write("Has seleccionado Tipo II")
-    elif opcion == "TIPO III":
+ elif opcion == "TIPO III":
         st.write("Has seleccionado TIPO III")
         st.title("ESTRUCTURAS TIPO III")
         st.write("bkbalblaba")
