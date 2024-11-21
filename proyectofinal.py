@@ -5,7 +5,6 @@ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
-st.rain()
 
 st.sidebar.title("ÍNDICE DE ESTRUCTURAS")
 st.sidebar.caption("descripcion breve ajaa")
