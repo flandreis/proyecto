@@ -5,14 +5,16 @@ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
+menu["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
 
-st.sidebar.title("ÍNDICE DE ESTRUCTURAS")
+opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS",menu)
+
+
 st.sidebar.caption("descripcion breve ajaa")
 
-with st.sidebar.expander("Estructuras tipo 1"):
-    st.caption("balbask")
-
-
+if opcion == "Proteínas":
+    st.title("Descripción")
+    st.write("blablablaba")
 st.markdown("### ESTRUCTURA TIPO I")
 st.write("Colágeno estructura tipo I")
 image_comparison(
@@ -21,6 +23,8 @@ image_comparison(
    label1="Estructura molecular",
     label2="Estructura",
 )
+
+elif opcion == "TIPO I":
 st.markdown("### ESTRUCTURA TIPO III")
 st.write("Colágeno estructura tipo III")
 image_comparison(
