@@ -23,7 +23,8 @@ image_comparison(
 )
 
 elif opcion == "TIPO III":
-st.write("bkbalblaba")
+    st.title("ESTRUCTURAS TIPO III")
+    st.write("bkbalblaba")
 st.markdown("### ESTRUCTURA TIPO III")
 st.write("Colágeno estructura tipo III")
 image_comparison(
