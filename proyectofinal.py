@@ -13,12 +13,12 @@ if opcion == "Proteínas":
     st.write("blablablaba")
 st.markdown("### ESTRUCTURA TIPO I")
 st.write("Colágeno estructura tipo I")
-image_comparison(
-  img1="Col_T1.jpg",
-  img2="colágeno_TIPO1.jpg",
-   label1="Estructura molecular",
-    label2="Estructura",
-)
+#image_comparison(
+  #img1="Col_T1.jpg",
+  #img2="colágeno_TIPO1.jpg",
+   #label1="Estructura molecular",
+    #label2="Estructura",)
+
 elif opcion == "TIPO I":
     st.write("Has seleccionado Tipo I")
 elif opcion == TIPO II:
