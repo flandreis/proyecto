@@ -25,6 +25,7 @@ image_comparison(
 )
 
 elif opcion == "TIPO I":
+st.write("bkbalblaba")
 st.markdown("### ESTRUCTURA TIPO III")
 st.write("Colágeno estructura tipo III")
 image_comparison(
