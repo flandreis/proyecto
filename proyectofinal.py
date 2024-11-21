@@ -5,6 +5,7 @@ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
+st.snow()
 st.markdown("### ESTRUCTURA TIPO I")
 st.write("Colágeno estructura tipo I")
 image_comparison(
