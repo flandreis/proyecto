@@ -24,7 +24,7 @@ image_comparison(
     label2="Estructura",
 )
 
-elif opcion == "TIPO I":
+elif opcion == "TIPO III":
 st.write("bkbalblaba")
 st.markdown("### ESTRUCTURA TIPO III")
 st.write("Colágeno estructura tipo III")
