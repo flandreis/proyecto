@@ -22,7 +22,7 @@ image_comparison(
     label2="Estructura",
 )
 
-elif opcion == "TIPO III":
+else opcion == "TIPO III":
     st.title("ESTRUCTURAS TIPO III")
     st.write("bkbalblaba")
 st.markdown("### ESTRUCTURA TIPO III")
