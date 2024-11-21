@@ -5,7 +5,13 @@ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
-st.snow()
+st.gen()
+
+st.sidebar.title("ÍNDICE DE ESTRUCTURAS")
+st.sidebar.caption("descripcion breve ajaa")
+
+with st.sidebar.expander("Estructuras tipo 1)
+    st.caption("balbask")
 st.markdown("### ESTRUCTURA TIPO I")
 st.write("Colágeno estructura tipo I")
 image_comparison(
