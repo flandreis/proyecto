@@ -18,22 +18,22 @@ image_comparison(
        label1="Estructura molecular",
         label2="Estructura",)
 
- elif opcion == "TIPO I":
-        st.write("Has seleccionado Tipo I")
- elif opcion == TIPO II:
-        st.write("Has seleccionado Tipo II")
- elif opcion == "TIPO III":
-        st.write("Has seleccionado TIPO III")
-        st.title("ESTRUCTURAS TIPO III")
-        st.write("bkbalblaba")
-        st.write("Colágeno estructura tipo III")
-    image_comparison(
-      img1="estructuracolag3.jpg",
-      img2="Colag.Tipo3.jpg",
-       label1="Estructura molecular  ",
-        label2="Estructura",
-    )
-  else:
-        st.write("Selecciona una opción del menú.")
+     elif opcion == "TIPO I":
+            st.write("Has seleccionado Tipo I")
+     elif opcion == TIPO II:
+            st.write("Has seleccionado Tipo II")
+     elif opcion == "TIPO III":
+            st.write("Has seleccionado TIPO III")
+            st.title("ESTRUCTURAS TIPO III")
+            st.write("bkbalblaba")
+            st.write("Colágeno estructura tipo III")
+        image_comparison(
+          img1="estructuracolag3.jpg",
+          img2="Colag.Tipo3.jpg",
+           label1="Estructura molecular  ",
+            label2="Estructura",
+        )
+      else:
+            st.write("Selecciona una opción del menú.")
 
 #streamlit run proyectofinal.py
