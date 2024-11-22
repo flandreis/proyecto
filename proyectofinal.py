@@ -72,7 +72,7 @@ elif opcion == "Estructura cuarternaria":
     st.write("Has seleccionado Tipo IV")
     st.write("Es la organización de múltiples cadenas polipeptídicas (subunidades) en una única proteína funcional.")
 
-     image_comparison(
+    image_comparison(
         img1="COL4M.jpg",
         img2="col4.jpg",
         label1="representación molecular", 
