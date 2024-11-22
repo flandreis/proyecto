@@ -61,8 +61,8 @@ elif opcion == "Estructura terciaria":
     image_comparison(
         img1="estructuracolag3.jpg",
         img2="Colag.Tipo3.jpg",
-        label1="Estructura molecular",
-        label2="Estructura",
+        label1="representación molecular", 
+        label2="superficie molecular", 
     )
     st.write("Se encuentra en los vasos sanguíneos, piel, músculos y órganos, y su función principal es el soporte estructural en tejidos elásticos.")
     st.write("Tres cadenas polipeptídicas (cadenas alfa) se enrollan formando una triple hélice (superhélice) estabilizada por enlaces de hidrógeno y enlaces covalentes cruzados.")
@@ -75,9 +75,9 @@ elif opcion == "Estructura cuarternaria":
  image_comparison(
         img1="COL4M.jpg",
         img2="col4.jpg",
-        label1="Estructura molecular",
-        label2="Estructura",
- )
+        label1="representación molecular", 
+        label2="superficie molecular", 
+    )
     st.write("Se encuentra principalmente en la membrana basal (estructura que separa el epitelio del tejido conectivo) con  la función de filtración selectiva y soporte a las células epiteliales.")
     st.write("En los tejidos, las moléculas de colágeno se ensamblan en fibras que proporcionan resistencia mecánica.")
 
