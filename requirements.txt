@@ -2,3 +2,4 @@ streamlit
 streamlit-image-comparison
 streamlit_theme
 scikit-image
+imagecodecs
