@@ -40,7 +40,7 @@ elif opcion == "TIPO III":
         label1="Estructura molecular",
         label2="Estructura",
     )
-elif opcion == "TIPO IV"
+elif opcion == "TIPO IV":
     st.write("Has seleccionado Tipo IV")
 else:
     st.write("Selecciona una opción del menú.")
