@@ -46,7 +46,7 @@ elif opcion == "Estructura secundaria":
     st.write("Hélice alfa (α): Una estructura helicoidal en espiral. Lámina beta (β): Segmentos extendidos que forman una hoja plegada.")
 
     image_comparison( 
-        img1="col2mjpg", 
+        img1="col2m.jpg", 
         img2="col2.jpg", 
         label1="representación molecular", 
         label2="superficie molecular", 
