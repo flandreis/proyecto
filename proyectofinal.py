@@ -5,9 +5,9 @@ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
-menu["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
-opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS",menu)
-st.sidebar.caption("descripcion breve ajaa")
+#menu["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
+#opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS",menu)
+#st.sidebar.caption("descripcion breve ajaa")
 import argparse
 
 parser = argparse.ArgumentParser(description="Menú interactivo en terminal")
