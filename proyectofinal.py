@@ -45,17 +45,13 @@ elif opcion == "Estructura secundaria":
     st.write("Es la organización local de segmentos de la cadena polipeptídica en patrones repetitivos estabilizados por enlaces de hidrógeno. Proporciona estabilidad y contribuye al plegamiento global.")
     st.write("Hélice alfa (α): Una estructura helicoidal en espiral. Lámina beta (β): Segmentos extendidos que forman una hoja plegada.")
 
-    img1 = io.imread("col2.jpg")
-    img2 = filters.gaussian(img1, sigma=2) 
-    img1_pil = Image.fromarray(img_as_ubyte(img1)) 
-    img2_pil = Image.fromarray(img_as_ubyte(img2))
-    image_comparison(
-        img1=img1_pil,
-        img2=img2_pil,
-         label1="Imagen Original",
-         label2="Imagen Procesada",
-)
-    #image_comparison( img1="col2mjpg", img2="col2.jpg", label1="representación molecular", label2="superficie molecular", )
+    image_comparison( 
+        img1="col2mjpg", 
+        img2="col2.jpg", 
+        label1="representación molecular", 
+        label2="superficie molecular", 
+        width=700,
+    )
 
 elif opcion == "Estructura terciaria":
     st.title("ESTRUCTURAS TIPO III")
