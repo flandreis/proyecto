@@ -17,17 +17,17 @@ elif opcion == "Colágeno":
     st.write("El colágeno es la proteína más abundante en los mamíferos y desempeña un papel fundamental en la estructura y soporte de tejidos conectivos, como la piel, los huesos, los tendones, los cartílagos y los vasos sanguíneos. Es una proteína fibrosa que proporciona fuerza, flexibilidad y resistencia a los tejidos.")
 
 
-elif opcion == "TIPO 1":
+elif opcion == "TIPO I":
     st.title("ESTRUCTURA PRIMARIA")   
     st.write("Has seleccionado estructura de tipo I, a continuación se podrá visualizar la estructura molecular del colágeno.")
     st.write("Es la secuencia lineal de aminoácidos en una cadena polipeptídica, determinada por el código genético, define el orden en que los aminoácidos están dispuestos y dicta cómo se pliega la proteína en niveles superiores.")
-    
     image_comparison(
         img1="Col_T1.jpg",
         img2="colágeno_TIPO1.jpg",
         label1="Estructura molecular",
         label2="Estructura",
     )
+    
 elif opcion == "TIPO II":
     st.write("Has seleccionado Tipo II")
     st.write("Colágeno estructura tipo II")
