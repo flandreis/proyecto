@@ -1,11 +1,17 @@
 
 import streamlit as st
 from streamlit_image_comparison import image_comparison
+from streamlit_theme import Theme
+
+# Definir el tema
+theme = Theme(primaryColor='#F0F2F6')
+theme.configure()
+
 st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
-menu = ["Proteínas", "Colágeno", "Estructura primaria", "TIPO II", "TIPO III", "TIPO IV"]
+menu = ["Proteínas", "Colágeno", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 if opcion == "Proteínas":
     st.title("Descripción")
@@ -13,13 +19,13 @@ if opcion == "Proteínas":
     st.write("Las proteínas tienen diferentes niveles de organización estructural que determinan su función")
 
 elif opcion == "Colágeno":
-    st.tile("COLÁGENO")
-    st.write("")
+    st.title("COLÁGENO, LA PROTEÍNA ESTRUCTURAL CLAVE", )
+    st.write("El colágeno es la proteína más abundante en los mamíferos y desempeña un papel fundamental en la estructura y soporte de tejidos conectivos, como la piel, los huesos, los tendones, los cartílagos y los vasos sanguíneos. Es una proteína fibrosa que proporciona fuerza, flexibilidad y resistencia a los tejidos.")
 
 
-elif opcion == "Estructura primaria":
-    st.title("Colágeno tipo I")   
-    st.write("Has seleccionado estructura de tipo I")
+elif opcion == "TIPO 1":
+    st.title("ESTRUCTURA PRIMARIA")   
+    st.write("Has seleccionado estructura de tipo I, a continuación se podrá visualizar la estructura molecular del colágeno.")
     st.write("Es la secuencia lineal de aminoácidos en una cadena polipeptídica, determinada por el código genético, define el orden en que los aminoácidos están dispuestos y dicta cómo se pliega la proteína en niveles superiores.")
     
     image_comparison(
