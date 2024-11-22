@@ -6,8 +6,7 @@ st.set_page_config(
     page_icon="🧬",
     layout="centered")
 menu["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
-opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS",menu)
-st.sidebar.caption("descripcion breve ajaa")
+opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 if opcion == "Proteínas":
     st.title("Descripción")
     st.write("blablablaba")
