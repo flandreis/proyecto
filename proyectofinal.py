@@ -42,7 +42,7 @@ elif opcion == "Estructura primaria":
 elif opcion == "Estructura secundaria":
     st.title("ESTRUCTURA SECUNDARIA") 
     st.write("Has seleccionado estructura de tipo II")
-    st.write("Es la organización local de segmentos de la cadena polipeptídica en patrones repetitivos estabilizados por enlaces de hidrógeno. Proporciona estabilidad y contribuye al plegamiento global.")
+    st.write("Es la organización local de segmentos de la cadena polipeptídica en patrones repetitivos estabilizados por enlaces de hidrógeno. Su función es proporciona estabilidad y contribuye al plegamiento global.")
     st.write("Hélice alfa (α): Una estructura helicoidal en espiral. Lámina beta (β): Segmentos extendidos que forman una hoja plegada.")
 
     image_comparison( 
@@ -50,13 +50,13 @@ elif opcion == "Estructura secundaria":
         img2="col2.jpg", 
         label1="representación molecular", 
         label2="superficie molecular", 
-        width=700,
     )
-
+    st.write("El cartílago tipo II se encuentra en cartílago, humor vítreo del ojo, y tiene como función proporcionar elasticidad y resistencia al cartílago.")
+    
 elif opcion == "Estructura terciaria":
-    st.title("ESTRUCTURAS TIPO III")
+    st.title("ESTRUCTURA TERCIARIA")
     st.write("Has seleccionado estructura de tipo III")
-    st.write("Es el plegamiento tridimensional completo de una cadena polipeptídica, estabilizado por interacciones entre los grupos R (radicales) de los aminoácidos.")
+    st.write("Es el plegamiento tridimensional completo de una cadena polipeptídica, estabilizado por interacciones entre los grupos R (radicales) de los aminoácidos. Con interacciones clave: Puentes disulfuro, interacciones hidrofóbicas, enlaces iónicos y de hidrógeno. Aquí se define la forma específica de la proteína y su función biológica.")
     
     image_comparison(
         img1="estructuracolag3.jpg",
@@ -64,8 +64,24 @@ elif opcion == "Estructura terciaria":
         label1="Estructura molecular",
         label2="Estructura",
     )
+    st.write("Se encuentra en los vasos sanguíneos, piel, músculos y órganos, y su función principal es el soporte estructural en tejidos elásticos.")
+    st.write("Tres cadenas polipeptídicas (cadenas alfa) se enrollan formando una triple hélice (superhélice) estabilizada por enlaces de hidrógeno y enlaces covalentes cruzados.")
+
 elif opcion == "Estructura cuarternaria":
+    st.title("ESTRUCTURA CUATERNARIA")
     st.write("Has seleccionado Tipo IV")
+    st.write("Es la organización de múltiples cadenas polipeptídicas (subunidades) en una única proteína funcional.")
+
+ image_comparison(
+        img1="COL4M.jpg",
+        img2="col4.jpg",
+        label1="Estructura molecular",
+        label2="Estructura",
+ )
+    st.write("Se encuentra principalmente en la membrana basal (estructura que separa el epitelio del tejido conectivo) con  la función de filtración selectiva y soporte a las células epiteliales.")
+    st.write("En los tejidos, las moléculas de colágeno se ensamblan en fibras que proporcionan resistencia mecánica.")
+
+
 else:
     st.write("Selecciona una opción del menú.")
 
