@@ -1,12 +1,6 @@
 
 import streamlit as st
 from streamlit_image_comparison import image_comparison
-from streamlit_theme import Theme
-
-# Definir el tema
-theme = Theme(primaryColor='#F0F2F6')
-theme.configure()
-
 st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
