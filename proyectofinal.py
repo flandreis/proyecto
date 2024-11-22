@@ -1,6 +1,7 @@
 
 import streamlit as st
 from streamlit_image_comparison import image_comparison
+from scikit-image import imagecodecs
 st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
