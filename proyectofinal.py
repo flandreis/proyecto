@@ -20,7 +20,9 @@ if opcion == "Proteínas":
     st.title("Tipos de representacion biomolecular")
     
     st.markdown("## Representación *stick* o molecular detallada")
-    st.write("Es un modelo detallado que representa cada átomo y enlace químico en la molécula donde los átomos se muestran como esferas o puntos, mientras que los enlaces químicos son líneas que los conectan.") 
+    st.markdown(
+        <div style="text-align: justify;"> "Es un modelo detallado que representa cada átomo y enlace químico en la molécula donde los átomos se muestran como esferas o puntos, mientras que los enlaces químicos son líneas que los conectan.")
+    </div> 
     st.write("Tomamos como referencia esta representacion ya que es útil para estudiar interacciones moleculares como enlaces de hidrógeno y la conformación local de la proteína. También porque muestra los átomos por distintos colores")
    
     st.markdown("## Representación de superficie molecular")
