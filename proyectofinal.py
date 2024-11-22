@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
-menu["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
+menu = ["Proteínas", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 if opcion == "Proteínas":
     st.title("Descripción")
@@ -40,6 +40,8 @@ elif opcion == "TIPO III":
         label1="Estructura molecular",
         label2="Estructura",
     )
+elif opcion == "TIPO IV"
+    st.write("Has seleccionado Tipo IV")
 else:
     st.write("Selecciona una opción del menú.")
 
