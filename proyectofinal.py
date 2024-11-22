@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered")
-menu = ["Proteínas", "Colágeno", "TIPO I", "TIPO II", "TIPO III", "TIPO IV"]
+menu = ["Proteínas", "Colágeno", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria"]
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 if opcion == "Proteínas":
     st.title("Descripción")
@@ -17,23 +17,25 @@ elif opcion == "Colágeno":
     st.write("El colágeno es la proteína más abundante en los mamíferos y desempeña un papel fundamental en la estructura y soporte de tejidos conectivos, como la piel, los huesos, los tendones, los cartílagos y los vasos sanguíneos. Es una proteína fibrosa que proporciona fuerza, flexibilidad y resistencia a los tejidos.")
 
 
-elif opcion == "TIPO I":
+elif opcion == "Estructura primaria":
     st.title("ESTRUCTURA PRIMARIA")   
-    st.write("Has seleccionado estructura de tipo I, a continuación se podrá visualizar la estructura molecular del colágeno.")
+    st.write("Has seleccionado estructura de tipo I. **cursiva**")
     st.write("Es la secuencia lineal de aminoácidos en una cadena polipeptídica, determinada por el código genético, define el orden en que los aminoácidos están dispuestos y dicta cómo se pliega la proteína en niveles superiores.")
+    st.write("A continuación se podrá visualizar la estructura molecular del colágeno.")   
     image_comparison(
         img1="Col_T1.jpg",
         img2="colágeno_TIPO1.jpg",
         label1="Estructura molecular",
         label2="Estructura",
     )
+    st.write("Colágeno tipo I es el más abundante ya que se encuentra en la piel, huesos, tendones, ligamentos y córnea. Su función brinda fuerza tensil y resistencia.")
     
-elif opcion == "TIPO II":
+elif opcion == "Estructura secundaria":
     st.write("Has seleccionado Tipo II")
     st.write("Colágeno estructura tipo II")
 
 
-elif opcion == "TIPO III":
+elif opcion == "TEstructura terciaria":
     st.write("Has seleccionado TIPO III")
     st.title("ESTRUCTURAS TIPO III")
     st.write("bkbalblaba")
@@ -44,7 +46,7 @@ elif opcion == "TIPO III":
         label1="Estructura molecular",
         label2="Estructura",
     )
-elif opcion == "TIPO IV":
+elif opcion == "Estructura cuarternaria":
     st.write("Has seleccionado Tipo IV")
 else:
     st.write("Selecciona una opción del menú.")
