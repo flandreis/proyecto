@@ -12,11 +12,11 @@ if opcion == "Proteínas":
     st.write("Las proteínas son biomoléculas esenciales para la vida, formadas por cadenas de aminoácidos unidos mediante enlaces peptídicos. Desempeñan funciones clave en casi todos los procesos biológicos, como la catálisis de reacciones (enzimas), transporte de moléculas (hemoglobina), soporte estructural (colágeno), defensa (anticuerpos) y regulación de procesos celulares (hormonas y receptores).")
     st.write("Las proteínas tienen diferentes niveles de organización estructural que determinan su función")
     st.title("Tipos de representacion biomolecular")
-    st.head("Representación stick o molecular detallada")
+    st.write("**Representación stick o molecular detallada**")
     st.write("Es un modelo detallado que representa cada átomo y enlace químico en la molécula donde los átomos se muestran como esferas o puntos, mientras que los enlaces químicos son líneas que los conectan.") 
     st.write("Tomamos como referencia esta representacion ya que es útil para estudiar interacciones moleculares como enlaces de hidrógeno y la conformación local de la proteína. También porque muestra los átomos por distintos colores")
    
-    st.head("Representación de superficie molecular")
+    st.write("**Representación de superficie molecular**")
     st.write("Es una representación de la superficie externa de la molécula, construida en base al volumen ocupado por los átomos. Simula cómo se miraría la molécula desde el exterior, incluyendo sus cavidades, canales o zonas de contacto.")
 
 elif opcion == "Colágeno":
@@ -26,7 +26,7 @@ elif opcion == "Colágeno":
 
 elif opcion == "Estructura primaria":
     st.title("ESTRUCTURA PRIMARIA")   
-    st.write("Has seleccionado estructura de tipo I. **cursiva**")
+    st.write("Has seleccionado estructura de tipo I.")
     st.write("Es la secuencia lineal de aminoácidos en una cadena polipeptídica, determinada por el código genético, define el orden en que los aminoácidos están dispuestos y dicta cómo se pliega la proteína en niveles superiores.")
     st.write("A continuación se podrá visualizar la estructura molecular del colágeno.")   
     image_comparison(
@@ -49,13 +49,11 @@ elif opcion == "Estructura secundaria":
         label2="superficie molecular",
     )
 
-
-elif opcion == "TEstructura terciaria":
+elif opcion == "Estructura terciaria":
     st.title("ESTRUCTURAS TIPO III")
     st.write("Has seleccionado estructura de tipo III")
     st.write("Es el plegamiento tridimensional completo de una cadena polipeptídica, estabilizado por interacciones entre los grupos R (radicales) de los aminoácidos.")
     
-   
     image_comparison(
         img1="estructuracolag3.jpg",
         img2="Colag.Tipo3.jpg",
