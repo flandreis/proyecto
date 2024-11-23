@@ -5,6 +5,3 @@ A través de este proyecto, buscamos proporcionar una comprensión accesible, vi
 
 ![Imagen](Chimerem.png)
 
-
-<img alt="Static Badge" src="https://img.shields.io/badge/:badgeContent">
-
