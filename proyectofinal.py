@@ -145,7 +145,7 @@ elif opcion == "Enzimas":
     st.write("Una fosfatasa es una enzima del grupo de las esterasas que cataliza la eliminación de grupos fosfatos de algunos sustratos, dando lugar a la liberación de una molécula de ion fosfato y la aparición de un grupo hidroxilo en el lugar en el que se encontraba esterificado el grupo fosfato.")
     image_comparison(
         img1="fosmol.jpg",
-        img2="fosssup.jpg",
+        img2="fossub.jpg,
         label1="representación molecular", 
         label2="superficie molecular", 
     )
