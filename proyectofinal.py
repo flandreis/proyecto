@@ -13,7 +13,8 @@ def load_css(file_name):
  st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
-    layout="centered")   
+    layout="centered"
+ )   
 
 load_css("styles.css")
 
