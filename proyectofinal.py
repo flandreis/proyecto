@@ -10,7 +10,7 @@ from PIL import Image
 def load_css(file_name): 
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
- st.set_page_config(
+st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
     layout="centered"
