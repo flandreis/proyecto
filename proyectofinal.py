@@ -20,10 +20,10 @@ if opcion == "Proteínas":
     st.title("Descripción")
     st.write("Las proteínas, macromoléculas formadas a partir de cadenas lineales de aminoácidos, son la base de todo tejido vivo, ya que representan el 80% del protoplasma celular deshidratado y el 50% del peso en seco de toda asociación tisular en el cuerpo. Los genes, encerrados en el núcleo en forma de cromosomas, codifican mediante secuencias de ácidos nucleicos la síntesis de proteínas específicas. Gracias a los mecanismos de transcripción y traducción, el código genético se convierte en los elementos funcionales que dan forma a nuestro cuerpo. Desempeñan funciones clave en casi todos los procesos biológicos, como la catálisis de reacciones (enzimas), transporte de moléculas (hemoglobina), soporte estructural (colágeno), defensa (anticuerpos) y regulación de procesos celulares (hormonas y receptores).")
     st.write(" *Las proteínas tienen diferentes niveles de organización estructural que determinan su función* ")
-    st.image("COLAGENO3.png", use_column_width=True)
+    st.image("COLAGENO3.png", width=300)
     st.title("Tipos de representacion biomolecular")
     st.markdown("## Representación *stick* o molecular detallada")
-    #st.image("Chimerem.png", use_colum_width=True)
+    st.image("Chimerem.png", width=150)
 
     
     st.write("Es un modelo detallado que representa cada átomo y enlace químico en la molécula donde los átomos se muestran como esferas o puntos, mientras que los enlaces químicos son líneas que los conectan.")
