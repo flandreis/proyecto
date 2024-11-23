@@ -119,7 +119,6 @@ elif opcion == "Enzimas":
         label1="representación molecular", 
         label2="superficie molecular", 
     )
-     st.write("que es lactasa")
 
 else:
     st.write("Selecciona una opción del menú.")
