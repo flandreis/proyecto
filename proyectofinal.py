@@ -15,7 +15,7 @@ st.set_page_config(
     layout="centered"
  )   
 load_css("style.css")
-menu = ["Proteínas", "Colágeno", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria"]
+menu = ["Proteínas", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria", "Colágeno", "Enzimas"]
 st.sidebar.header("ÍNDICE")
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 st.sidebar.markdown("---")
@@ -100,6 +100,26 @@ elif opcion == "Estructura cuarternaria":
     st.write("Se encuentra principalmente en la membrana basal (estructura que separa el epitelio del tejido conectivo) con  la función de filtración selectiva y soporte a las células epiteliales.")
     st.write("En los tejidos, las moléculas de colágeno se ensamblan en fibras que proporcionan resistencia mecánica.")
 
+elif opcion == "Enzimas":
+    st.title("¿Qué son las enzimas?")
+    st.markdown("# AMILASA")
+    st.write("que es amilasa")
+  image_comparison(
+        img1="amimol.jpg",
+        img2="amisup.jpg",
+        label1="representación molecular", 
+        label2="superficie molecular", 
+    )
+    st.write("que es amilasa")
+    st.markdown("---")
+    st.markdown("# LACTASA")
+  image_comparison(
+        img1="lacmol.jpg",
+        img2="lacsup.jpg",
+        label1="representación molecular", 
+        label2="superficie molecular", 
+    )
+     st.write("que es lactasa")
 
 else:
     st.write("Selecciona una opción del menú.")
