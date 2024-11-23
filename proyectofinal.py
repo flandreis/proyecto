@@ -17,7 +17,7 @@ opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 if opcion == "Proteínas":
     st.title("Descripción")
     st.write("Las proteínas, macromoléculas formadas a partir de cadenas lineales de aminoácidos, son la base de todo tejido vivo, ya que representan el 80% del protoplasma celular deshidratado y el 50% del peso en seco de toda asociación tisular en el cuerpo. Los genes, encerrados en el núcleo en forma de cromosomas, codifican mediante secuencias de ácidos nucleicos la síntesis de proteínas específicas. Gracias a los mecanismos de transcripción y traducción, el código genético se convierte en los elementos funcionales que dan forma a nuestro cuerpo. Desempeñan funciones clave en casi todos los procesos biológicos, como la catálisis de reacciones (enzimas), transporte de moléculas (hemoglobina), soporte estructural (colágeno), defensa (anticuerpos) y regulación de procesos celulares (hormonas y receptores).")
-    st.write("Las proteínas tienen diferentes niveles de organización estructural que determinan su función")
+    st.write(" *Las proteínas tienen diferentes niveles de organización estructural que determinan su función* ")
     st.title("Tipos de representacion biomolecular")
     
     st.markdown("## Representación *stick* o molecular detallada")
@@ -29,7 +29,12 @@ if opcion == "Proteínas":
 
 elif opcion == "Colágeno":
     st.title("COLÁGENO, LA PROTEÍNA ESTRUCTURAL CLAVE", )
-    st.write("El colágeno es la proteína más abundante en los mamíferos y desempeña un papel fundamental en la estructura y soporte de tejidos conectivos, como la piel, los huesos, los tendones, los cartílagos y los vasos sanguíneos. Es una proteína fibrosa que proporciona fuerza, flexibilidad y resistencia a los tejidos.")
+    st.markdown("# ¿Qué es el colágeno? ")
+    st.write("El colágeno es la proteína fibrosa más abundante en la matriz extracelular y en el tejido conectivo. Es uno de los componentes principales de la piel y los huesos y, por tanto, cubre aproximadamente el 25% de la masa proteica del organismo humano. También se encuentra en tendones, ligamentos y cartílagos. Dependiendo del grado de mineralización, el colágeno puede ser rígido, maleable o encontrarse en un amplio espectro entre ambos términos.")
+    st.markdown("# Tipos de colágeno")
+    st.write("Según el tipo de cadenas que presentan, su disposición, su localización y la interrelación con otros elementos, se pueden detectar varios tipos de colágeno, esta proteína está formada por distintos tipos de cadenas y, según su disposición (fibras, redes, redes hexagonales, asociados a fibras o transmembrana), se pueden contar varios tipos de colágeno, con funcionalidades distintas.")
+
+
 
 
 elif opcion == "Estructura primaria":
