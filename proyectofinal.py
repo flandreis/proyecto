@@ -13,7 +13,10 @@ st.set_page_config(
     page_icon="🧬",
     layout="centered")
 menu = ["Proteínas", "Colágeno", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria"]
+
+st.sidebar.header("ÍNDICE")
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
+st.sidebar.markdown("---")
 if opcion == "Proteínas":
     st.title("Descripción")
     st.write("Las proteínas, macromoléculas formadas a partir de cadenas lineales de aminoácidos, son la base de todo tejido vivo, ya que representan el 80% del protoplasma celular deshidratado y el 50% del peso en seco de toda asociación tisular en el cuerpo. Los genes, encerrados en el núcleo en forma de cromosomas, codifican mediante secuencias de ácidos nucleicos la síntesis de proteínas específicas. Gracias a los mecanismos de transcripción y traducción, el código genético se convierte en los elementos funcionales que dan forma a nuestro cuerpo. Desempeñan funciones clave en casi todos los procesos biológicos, como la catálisis de reacciones (enzimas), transporte de moléculas (hemoglobina), soporte estructural (colágeno), defensa (anticuerpos) y regulación de procesos celulares (hormonas y receptores).")
@@ -95,5 +98,5 @@ elif opcion == "Estructura cuarternaria":
 
 else:
     st.write("Selecciona una opción del menú.")
-
+st.sidebar.markdown("---")
 #streamlit run proyectofinal.py
