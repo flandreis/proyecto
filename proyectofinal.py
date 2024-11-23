@@ -7,18 +7,10 @@ import streamlit as st
 from streamlit_image_comparison import image_comparison
 from skimage import io, filters, img_as_ubyte
 from PIL import Image
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #f0f8ff; /* Fondo claro */
-        color: #000; /* Color del texto */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
+def load_css(style.css):
+    with open(style.css) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+load_css("styles.css")
 st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
