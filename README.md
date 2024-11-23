@@ -8,8 +8,8 @@ Este proyecto se enfoca en explorar su estructura, función y relevancia en la b
 ---
 
 ## **Enzimas**  
-Son proteínas que aceleran las reacciones químicas, como las digestivas.  
-Sin enzimas, muchos procesos serían demasiado lentos para mantener la vida.  
+- Son proteínas que aceleran las reacciones químicas, como las digestivas.  
+- Sin enzimas, muchos procesos serían demasiado lentos para mantener la vida.  
 
 ---
 
@@ -22,7 +22,8 @@ Es la proteína más abundante en el cuerpo humano.
 ![Imagen](co.jpg)
 A través de este proyecto, buscamos proporcionar una comprensión accesible, visual y educativa para estudiantes y conocer estas asombrosas biomoléculas
 
-
+---
 Elaborado por: Mar Nirvana Shiguemtasu Betancourt y Andrea Flores Gil
-Ing. Biomédica 
+---
+Ing. Biomédica, Bioinfórmatica
 Noviembre 2024
