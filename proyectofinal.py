@@ -21,7 +21,7 @@ opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 st.sidebar.markdown("---")
 if opcion == "Proteínas":
 
-    st.title("¿Qué son las proteínas?:adn:")
+    st.title("¿Qué son las proteínas?:dna:")
     st.write("Las proteínas, macromoléculas formadas a partir de cadenas lineales de aminoácidos, son la base de todo tejido vivo, ya que representan el 80% del protoplasma celular deshidratado y el 50% del peso en seco de toda asociación tisular en el cuerpo:brain:. Los genes, encerrados en el núcleo en forma de cromosomas, codifican mediante secuencias de ácidos nucleicos la síntesis de proteínas específicas. Gracias a los mecanismos de transcripción y traducción, el código genético :dna: se convierte en los elementos funcionales que dan forma a nuestro cuerpo. Desempeñan funciones clave en casi todos los procesos biológicos, como la catálisis de reacciones (enzimas), transporte de moléculas (hemoglobina:drop_of_blood:), soporte estructural (colágeno:worm:), defensa (anticuerpos:anatomical_heart:) y regulación de procesos celulares (hormonas y receptores).")
     st.write(" *Las proteínas tienen diferentes niveles de organización estructural que determinan su función* ")
     st.image("COLAGENO3.png", width=300)
