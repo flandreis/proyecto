@@ -128,7 +128,30 @@ elif opcion == "Enzimas":
         label2="superficie molecular", 
     )
     st.write("La función primordial de la lactasa es desdoblar la lactosa en sus dos componentes: glucosa y galactosa. Solo así podrán ser absorbidos por tu organismo. Esta enzima digiere la lactosa. Es decir, gracias a esta enzima el organismo puede procesar los lácteos.")
+    st.markdown("---")
+    st.markdown("# LIPASA")
+    st.write("La lipasa es una enzima capaz de disgregar grasas, como los triglicéridos, los fosfolípidos, los ésteres de colesterol y algunas vitaminas, para hacerlos más fácilmente absorbibles.")
+    image_comparison(
+        img1="lipmol.jpg",
+        img2="lipsup.jpg",
+        label1="representación molecular", 
+        label2="superficie molecular", 
+    )
+
+    st.write("Las lipasas son codificadas por genes que pertenecen a una familia que incluye los genes codificantes de la lipasa pancreática, la lipasa hepática, la lipasa lipoproteica, la lipasa endotelial y la fosfatidilserina fosfolipasa A1.")
+
+    st.markdown("---")
+    st.markdown("# FOSFATASA")
+    st.write("Una fosfatasa es una enzima del grupo de las esterasas que cataliza la eliminación de grupos fosfatos de algunos sustratos, dando lugar a la liberación de una molécula de ion fosfato y la aparición de un grupo hidroxilo en el lugar en el que se encontraba esterificado el grupo fosfato.")
+     image_comparison(
+        img1="fosmol.jpg",
+        img2="fosssup.jpg",
+        label1="representación molecular", 
+        label2="superficie molecular", 
+    )
+    st.write("La fosfatasa alcalina es una enzima relacionada con la formación y remodelación ósea, por lo que su nivel elevado en sangre puede indicar enfermedades como la osteoporosis, el hiperparatiroidismo o el cáncer de hueso.")
+    st.markdown("---")
 
 else:
-    st.write("Selecciona una opción del menú.")
+    st.write("*Selecciona una opción del menú.*")
 #streamlit run proyectofinal.py
