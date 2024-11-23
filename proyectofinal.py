@@ -14,14 +14,12 @@ st.set_page_config(
     layout="centered"
  )   
 
-load_css("style.css")
-
 menu = ["Proteínas", "Colágeno", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria"]
 st.sidebar.header("ÍNDICE")
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 st.sidebar.markdown("---")
 if opcion == "Proteínas":
-    def load_css(file_name): 
+def load_css(file_name): 
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
     st.title("Descripción")
@@ -31,7 +29,7 @@ if opcion == "Proteínas":
     st.title("Tipos de representacion biomolecular")
     st.markdown("## Representación *stick* o molecular detallada")
     st.image("Chimerem.png", width=150)
-
+load_css("style.css")
     
     st.write("Es un modelo detallado que representa cada átomo y enlace químico en la molécula donde los átomos se muestran como esferas o puntos, mientras que los enlaces químicos son líneas que los conectan.")
     st.write("Tomamos como referencia esta representacion ya que es útil para estudiar interacciones moleculares como enlaces de hidrógeno y la conformación local de la proteína. También porque muestra los átomos por distintos colores")
