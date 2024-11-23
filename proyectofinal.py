@@ -106,25 +106,28 @@ elif opcion == "Estructura cuarternaria":
     
 elif opcion == "Enzimas":
     st.title("¿Qué son las enzimas?")
-    st.write("enzimas")
+    st.write("Las enzimas tienen una enorme variedad de funciones dentro de la célula: degradan azúcares, sintetizan grasas y aminoácidos, copian fielmente la información genética, participan en el reconocimiento y transmisión de señales del exterior y se encargan de degradar subproductos tóxicos para la célula, entre muchas otras funciones vitales. La identidad y el estado fisiológico de un ser vivo está determinado por la colección de enzimas que estén funcionando con precisión.")
     st.markdown("---")
     st.markdown("# AMILASA")
-    st.write("que es amilasa")
+    st.write("La amilasa es un importante grupo de enzimas que se encarga de la hidrólisis de los enlaces glucosídicos entre las moléculas de glucosa presentes en carbohidratos, como el almidón y otros relacionados, ingeridos en la dieta de muchos organismos vivos. Este tipo de enzimas es producido por bacterias, hongos, animales y plantas, donde catalizan básicamente las mismas reacciones y tienen variadas funciones, principalmente relacionadas con el metabolismo energético.")
     image_comparison(
         img1="amimol.jpg",
         img2="amisup.jpg",
         label1="representación molecular", 
         label2="superficie molecular", 
     )
-    st.write("que es amilasa")
+    st.write("Las amilasas son enzimas capaces de hidrolizar enlaces glucosídicos de gran cantidad de polisacáridos, generalmente produciendo disacáridos, pero no son capaces de hidrolizar complejos como la celulosa.")
+    st.write("El motivo por el cual las amilasas son tan importantes en la naturaleza, especialmente en la digestión de los carbohidratos, está relacionado con la ubicua presencia de su sustrato natural (el almidón) en los tejidos de los vegetales.")
     st.markdown("---")
     st.markdown("# LACTASA")
+    st.write("La lactasa, un tipo de β-galactosidasa, es una enzima producida en el intestino delgado y que se sintetiza durante la infancia lactante de todos los mamíferos. Su acción es imprescindible para el proceso de conversión de la lactosa, azúcar doble (disacárido), en sus componentes glucosa y galactosa.")
     image_comparison(
         img1="lacmol.jpg",
         img2="lacsup.jpg",
         label1="representación molecular", 
         label2="superficie molecular", 
     )
+    st.write("La función primordial de la lactasa es desdoblar la lactosa en sus dos componentes: glucosa y galactosa. Solo así podrán ser absorbidos por tu organismo. Esta enzima digiere la lactosa. Es decir, gracias a esta enzima el organismo puede procesar los lácteos.")
 
 else:
     st.write("Selecciona una opción del menú.")
