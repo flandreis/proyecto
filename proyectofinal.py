@@ -31,7 +31,7 @@ if opcion == "Proteínas":
    
     st.markdown("## Representación de superficie molecular")
     st.write("Es una representación de la superficie externa de la molécula, construida en base al volumen ocupado por los átomos. Simula cómo se miraría la molécula desde el exterior, incluyendo sus cavidades, canales o zonas de contacto.")
-    st.image("mmm.png", width=150") st.write("imagen aja texto")
+    st.image("mmm.png", width=150")
 
 elif opcion == "Colágeno":
     st.title("COLÁGENO, LA PROTEÍNA ESTRUCTURAL CLAVE:microbe:", )
