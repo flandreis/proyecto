@@ -46,7 +46,7 @@ elif opcion == "Colágeno":
     st.image("co.jpg", width=500)
 
 elif opcion == "Estructura primaria":
-    st.title("ESTRUCTURA PRIMARIA")   
+    st.title("✨ESTRUCTURA PRIMARIA✨")   
     st.write("*Has seleccionado estructura de tipo I.*")
     st.write("Es la secuencia lineal de aminoácidos en una cadena polipeptídica, determinada por el código genético, define el orden en que los aminoácidos están dispuestos y dicta cómo se pliega la proteína en niveles superiores.")
     st.write("A continuación se podrá visualizar la estructura molecular del colágeno.")   
@@ -60,7 +60,7 @@ elif opcion == "Estructura primaria":
     st.write("Colágeno tipo I es el más abundante ya que se encuentra en la piel, huesos, tendones, ligamentos y córnea. Su función brinda fuerza tensil y resistencia.")
     st.markdown("---")
 elif opcion == "Estructura secundaria":
-    st.title("ESTRUCTURA SECUNDARIA") 
+    st.title("✨ESTRUCTURA SECUNDARIA✨") 
     st.write("*Has seleccionado estructura de tipo II*")
     st.markdown("---")
     st.write("Se refiere al enrollamiento o plegamiento de una cadena de polipéptidos que le da a la proteína su forma tridimensional. Hay dos tipos de estructuras secundarias observadas en las proteínas. Un tipo es la   estructura de hélice alfa (α) . Esta estructura se asemeja a un resorte en espiral y está asegurada por enlaces de hidrógeno en la cadena de polipéptidos. El segundo tipo de estructura secundaria en las proteínas es la  lámina plisada beta (β) . esta estructura parece estar plegada o plegada y se mantiene unida mediante enlaces de hidrógeno entre las unidades de polipéptidos de la cadena plegada que se encuentran adyacentes entre sí.")
@@ -74,7 +74,7 @@ elif opcion == "Estructura secundaria":
     st.write("El cartílago tipo II se encuentra en cartílago, humor vítreo del ojo, y tiene como función proporcionar elasticidad y resistencia al cartílago.")
     st.markdown("---")
 elif opcion == "Estructura terciaria":
-    st.title("ESTRUCTURA TERCIARIA")
+    st.title("✨ESTRUCTURA TERCIARIA✨")
     st.write("*Has seleccionado estructura de tipo III*")
     st.markdown("---")
     st.write("Es el plegamiento tridimensional completo de una cadena polipeptídica, estabilizado por interacciones entre los grupos R (radicales) de los aminoácidos. Con interacciones clave: Puentes disulfuro, interacciones hidrofóbicas, enlaces iónicos y de hidrógeno. Aquí se define la forma específica de la proteína y su función biológica.")
@@ -90,7 +90,7 @@ elif opcion == "Estructura terciaria":
     st.markdown("---")
     
 elif opcion == "Estructura cuarternaria":
-    st.title("ESTRUCTURA CUATERNARIA")
+    st.title("✨ESTRUCTURA CUATERNARIA✨")
     st.write("*Has seleccionado Tipo IV*")
     st.write("Se refiere a la estructura de una proteína macromolécula formada por interacciones entre múltiples cadenas de polipéptidos. cada cadena polipeptídica se denomina subunidad. Las proteínas con estructura cuaternaria pueden consistir en más de uno del mismo tipo de subunidad proteica. También pueden estar compuestos de diferentes subunidades. La hemoglobina es un ejemplo de una proteína con estructura cuaternaria. La hemoglobina, que se encuentra en la  sangre , es una proteína que contiene hierro que se une a las moléculas de oxígeno. Contiene cuatro subunidades: dos subunidades alfa y dos subunidades beta.")
     st.title("Estructura cuaternaria de colágeno")
@@ -105,10 +105,10 @@ elif opcion == "Estructura cuarternaria":
     st.markdown("---")
     
 elif opcion == "Enzimas":
-    st.title("¿Qué son las enzimas?")
+    st.title("🎀¿Qué son las enzimas?🎀")
     st.write("Las enzimas tienen una enorme variedad de funciones dentro de la célula: degradan azúcares, sintetizan grasas y aminoácidos, copian fielmente la información genética, participan en el reconocimiento y transmisión de señales del exterior y se encargan de degradar subproductos tóxicos para la célula, entre muchas otras funciones vitales. La identidad y el estado fisiológico de un ser vivo está determinado por la colección de enzimas que estén funcionando con precisión.")
     st.markdown("---")
-    st.markdown("# AMILASA")
+    st.markdown("# 🌸AMILASA🌸")
     st.write("La amilasa es un importante grupo de enzimas que se encarga de la hidrólisis de los enlaces glucosídicos entre las moléculas de glucosa presentes en carbohidratos, como el almidón y otros relacionados, ingeridos en la dieta de muchos organismos vivos. Este tipo de enzimas es producido por bacterias, hongos, animales y plantas, donde catalizan básicamente las mismas reacciones y tienen variadas funciones, principalmente relacionadas con el metabolismo energético.")
     image_comparison(
         img1="amimol.jpg",
@@ -119,7 +119,7 @@ elif opcion == "Enzimas":
     st.write("Las amilasas son enzimas capaces de hidrolizar enlaces glucosídicos de gran cantidad de polisacáridos, generalmente produciendo disacáridos, pero no son capaces de hidrolizar complejos como la celulosa.")
     st.write("El motivo por el cual las amilasas son tan importantes en la naturaleza, especialmente en la digestión de los carbohidratos, está relacionado con la ubicua presencia de su sustrato natural (el almidón) en los tejidos de los vegetales.")
     st.markdown("---")
-    st.markdown("# LACTASA")
+    st.markdown("# 🍼LACTASA🍼")
     st.write("La lactasa, un tipo de β-galactosidasa, es una enzima producida en el intestino delgado y que se sintetiza durante la infancia lactante de todos los mamíferos. Su acción es imprescindible para el proceso de conversión de la lactosa, azúcar doble (disacárido), en sus componentes glucosa y galactosa.")
     image_comparison(
         img1="lacmol.jpg",
@@ -129,7 +129,7 @@ elif opcion == "Enzimas":
     )
     st.write("La función primordial de la lactasa es desdoblar la lactosa en sus dos componentes: glucosa y galactosa. Solo así podrán ser absorbidos por tu organismo. Esta enzima digiere la lactosa. Es decir, gracias a esta enzima el organismo puede procesar los lácteos.")
     st.markdown("---")
-    st.markdown("# LIPASA")
+    st.markdown("# 💫LIPASA💫")
     st.write("La lipasa es una enzima capaz de disgregar grasas, como los triglicéridos, los fosfolípidos, los ésteres de colesterol y algunas vitaminas, para hacerlos más fácilmente absorbibles.")
     image_comparison(
         img1="lipmol.jpg",
@@ -141,7 +141,7 @@ elif opcion == "Enzimas":
     st.write("Las lipasas son codificadas por genes que pertenecen a una familia que incluye los genes codificantes de la lipasa pancreática, la lipasa hepática, la lipasa lipoproteica, la lipasa endotelial y la fosfatidilserina fosfolipasa A1.")
 
     st.markdown("---")
-    st.markdown("# FOSFATASA")
+    st.markdown("# ☄️FOSFATASA☄️")
     st.write("Una fosfatasa es una enzima del grupo de las esterasas que cataliza la eliminación de grupos fosfatos de algunos sustratos, dando lugar a la liberación de una molécula de ion fosfato y la aparición de un grupo hidroxilo en el lugar en el que se encontraba esterificado el grupo fosfato.")
     image_comparison(
         img1="fosmol.jpg",
