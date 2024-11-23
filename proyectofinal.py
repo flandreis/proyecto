@@ -13,7 +13,7 @@ st.set_page_config(
     page_icon="🧬",
     layout="centered")
 menu = ["Proteínas", "Colágeno", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria"]
-
+st.image("COLAGENO3.PNG")
 st.sidebar.header("ÍNDICE")
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
 st.sidebar.markdown("---")
@@ -98,5 +98,4 @@ elif opcion == "Estructura cuarternaria":
 
 else:
     st.write("Selecciona una opción del menú.")
-st.sidebar.markdown("---")
 #streamlit run proyectofinal.py
