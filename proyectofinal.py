@@ -32,8 +32,8 @@ if opcion == "Proteínas":
     st.markdown("## Representación de superficie molecular")
     st.write("Es una representación de la superficie externa de la molécula, construida en base al volumen ocupado por los átomos. Simula cómo se miraría la molécula desde el exterior, incluyendo sus cavidades, canales o zonas de contacto.")
 
-elif opcion == "Colágeno:microbe:":
-    st.title("COLÁGENO, LA PROTEÍNA ESTRUCTURAL CLAVE", )
+elif opcion == "Colágeno":
+    st.title("COLÁGENO, LA PROTEÍNA ESTRUCTURAL CLAVE:microbe:", )
     st.markdown("# ¿Qué es el colágeno? ")
     st.write("El colágeno es la proteína fibrosa más abundante en la matriz extracelular y en el tejido conectivo. Es uno de los componentes principales de la piel y los huesos y, por tanto, cubre aproximadamente el 25% de la masa proteica del organismo humano. También se encuentra en tendones, ligamentos y cartílagos. Dependiendo del grado de mineralización, el colágeno puede ser rígido, maleable o encontrarse en un amplio espectro entre ambos términos.")
     st.markdown("# Tipos de colágeno")
