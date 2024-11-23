@@ -5,3 +5,9 @@ A través de este proyecto, buscamos proporcionar una comprensión accesible, vi
 
 ![Imagen](Chimerem.png)
 
+https://img.shields.io/badge/just%20the%20message-8A2BE2
+
+
+Elaborado por: Mar Nirvana Shiguemtasu Betancourt y Andrea Flores Gil
+Ing. Biomédica 
+Noviembre 2024
