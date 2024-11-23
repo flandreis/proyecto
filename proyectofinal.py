@@ -16,7 +16,7 @@ st.set_page_config(
     layout="centered"
  )   
 
-load_css("styles.css")
+load_css("style.css")
 
 menu = ["Proteínas", "Colágeno", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria"]
 st.sidebar.header("ÍNDICE")
