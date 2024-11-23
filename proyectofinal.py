@@ -7,14 +7,16 @@ import streamlit as st
 from streamlit_image_comparison import image_comparison
 from skimage import io, filters, img_as_ubyte
 from PIL import Image
-def load_css(style.css):
-    with open(style.css) as f:
+def load_css(file_name): 
+    with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-load_css("styles.css")
-st.set_page_config(
+ st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
-    layout="centered")
+    layout="centered")   
+
+load_css("styles.css")
+
 menu = ["Proteínas", "Colágeno", "Estructura primaria", "Estructura secundaria", "Estructura terciaria", "Estructura cuarternaria"]
 st.sidebar.header("ÍNDICE")
 opcion = st.sidebar.selectbox("ÍNDICE DE ESTRUCTURAS", menu)
