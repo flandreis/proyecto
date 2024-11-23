@@ -104,7 +104,7 @@ elif opcion == "Enzimas":
     st.title("¿Qué son las enzimas?")
     st.markdown("# AMILASA")
     st.write("que es amilasa")
-  image_comparison(
+    image_comparison(
         img1="amimol.jpg",
         img2="amisup.jpg",
         label1="representación molecular", 
@@ -113,7 +113,7 @@ elif opcion == "Enzimas":
     st.write("que es amilasa")
     st.markdown("---")
     st.markdown("# LACTASA")
-  image_comparison(
+    image_comparison(
         img1="lacmol.jpg",
         img2="lacsup.jpg",
         label1="representación molecular", 
