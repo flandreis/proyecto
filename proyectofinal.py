@@ -7,7 +7,9 @@ import streamlit as st
 from streamlit_image_comparison import image_comparison
 from skimage import io, filters, img_as_ubyte
 from PIL import Image
-
+body {
+    background-color: #f0f8ff; color: #000;
+}
 st.set_page_config(
     page_title="DASHBOARD PROTEINAS",
     page_icon="🧬",
